@@ -1,0 +1,485 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "category": "Entertainment%3A%20Video%20Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "How%20many%20games%20in%20the%20Crash%20Bandicoot%20series%20were%20released%20on%20the%20original%20Playstation%3F",
+      "correct_answer": "5",
+      "incorrect_answers": ["4", "3", "6"]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which%20city%20is%20the%20capital%20of%20the%20United%20States%20of%20America%3F",
+      "correct_answer": "Washington%20D.C",
+      "incorrect_answers": ["Seattle", "Albany", "Los%20Angeles"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What%20event%20marked%20the%20start%20of%20World%20War%20II%3F",
+      "correct_answer": "Invasion%20of%20Poland%20%281939%29",
+      "incorrect_answers": [
+        "Invasion%20of%20Russia%20%281942%29",
+        "Battle%20of%20Britain%20%281940%29",
+        "Invasion%20of%20Normandy%20%281944%29"
+      ]
+    },
+    {
+      "category": "General%20Knowledge",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which%20river%20flows%20through%20the%20Scottish%20city%20of%20Glasgow%3F",
+      "correct_answer": "Clyde",
+      "incorrect_answers": ["Tay", "Dee", "Tweed"]
+    },
+    {
+      "category": "Entertainment%3A%20Music",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which%20Canadian%20reggae%20musician%20had%20a%201993%20hit%20with%20the%20song%20%27Informer%27%3F",
+      "correct_answer": "Snow",
+      "incorrect_answers": ["Rain", "Hail", "Sleet"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which%20king%20was%20killed%20at%20the%20Battle%20of%20Bosworth%20Field%20in%201485%3F%20",
+      "correct_answer": "Richard%20III",
+      "incorrect_answers": ["Edward%20V", "Henry%20VII", "James%20I"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which%20one%20of%20these%20tanks%20was%20designed%20and%20operated%20by%20the%20United%20Kingdom%3F",
+      "correct_answer": "Tog%20II",
+      "incorrect_answers": ["M4%20Sherman", "Tiger%20H1", "T-34"]
+    },
+    {
+      "category": "Science%20%26%20Nature",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "What%20is%20the%20molecular%20formula%20of%20Glucose%3F",
+      "correct_answer": "C6H12O6",
+      "incorrect_answers": ["C2H4O2", "K%2B", "CH4"]
+    },
+    {
+      "category": "Entertainment%3A%20Video%20Games",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In%20the%20game%20%22Undertale%22%2C%20who%20was%20Mettaton%27s%20creator%3F",
+      "correct_answer": "Alphys",
+      "incorrect_answers": ["Undyne", "Sans", "Asgore"]
+    },
+    {
+      "category": "Entertainment%3A%20Film",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "This%20movie%20contains%20the%20quote%2C%20%22I%20love%20the%20smell%20of%20napalm%20in%20the%20morning%21%22",
+      "correct_answer": "Apocalypse%20Now",
+      "incorrect_answers": [
+        "Platoon",
+        "The%20Deer%20Hunter",
+        "Full%20Metal%20Jacket"
+      ]
+    },
+    {
+      "category": "Entertainment%3A%20Music",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Which%20song%20in%20rapper%20Kanye%20West%27s%20album%20%22The%20Life%20of%20Pablo%22%20features%20Rihanna%3F",
+      "correct_answer": "Famous",
+      "incorrect_answers": ["Wolves", "Ultralight%20Beam", "Highlights"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "When%20did%20Jamaica%20recieve%20its%20independence%20from%20England%3F%20",
+      "correct_answer": "1962",
+      "incorrect_answers": ["1492", "1963", "1987"]
+    },
+    {
+      "category": "Entertainment%3A%20Video%20Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which%20student%20in%20Yandere%20Simulator%20is%20known%20for%20asking%20irritating%20and%20stupid%20questions%3F",
+      "correct_answer": "Midori%20Gurin",
+      "incorrect_answers": ["Kokona%20Hruka", "Oka%20Ruto", "Pipi%20Osu"]
+    },
+    {
+      "category": "General%20Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which%20one%20of%20the%20following%20rhythm%20games%20was%20made%20by%20Harmonix%3F",
+      "correct_answer": "Rock%20Band",
+      "incorrect_answers": [
+        "Meat%20Beat%20Mania",
+        "Guitar%20Hero%20Live",
+        "Dance%20Dance%20Revolution"
+      ]
+    },
+    {
+      "category": "General%20Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What%20type%20of%20animal%20was%20Harambe%2C%20who%20was%20shot%20after%20a%20child%20fell%20into%20it%27s%20enclosure%20at%20the%20Cincinnati%20Zoo%3F",
+      "correct_answer": "Gorilla",
+      "incorrect_answers": ["Tiger", "Panda", "Crocodile"]
+    },
+    {
+      "category": "Entertainment%3A%20Video%20Games",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "When%20was%20the%20first%20%22Half-Life%22%20released%3F",
+      "correct_answer": "1998",
+      "incorrect_answers": ["2004", "1999", "1997"]
+    },
+    {
+      "category": "Entertainment%3A%20Comics",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What%20is%20the%20name%20of%20the%20comic%20about%20a%20young%20boy%2C%20and%20a%20tiger%20who%20is%20actually%20a%20stuffed%20animal%3F",
+      "correct_answer": "Calvin%20and%20Hobbes",
+      "incorrect_answers": [
+        "Winnie%20the%20Pooh",
+        "Albert%20and%20Pogo",
+        "Peanuts"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "When%20was%20the%20United%20States%20National%20Security%20Agency%20established%3F",
+      "correct_answer": "November%204%2C%201952",
+      "incorrect_answers": [
+        "July%2026%2C%201908",
+        "%20July%201%2C%201973",
+        "%20November%2025%2C%202002"
+      ]
+    },
+    {
+      "category": "Entertainment%3A%20Comics",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What%20is%20the%20name%20of%20the%20main%20character%20in%20the%20webcomic%20Gunnerkrigg%20Court%20by%20Tom%20Siddell%3F",
+      "correct_answer": "Antimony",
+      "incorrect_answers": ["Bismuth", "Mercury", "Cobalt"]
+    },
+    {
+      "category": "General%20Knowledge",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What%20is%20the%20name%20of%20the%20popular%20animatronic%20singing%20fish%20prop%2C%20singing%20such%20hits%20such%20as%20%22Don%27t%20Worry%2C%20Be%20Happy%22%3F",
+      "correct_answer": "Big%20Mouth%20Billy%20Bass",
+      "incorrect_answers": ["Big%20Billy%20Bass", "Singing%20Fish", "Sardeen"]
+    },
+    {
+      "category": "Entertainment%3A%20Video%20Games",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In%20%22Overwatch%2C%22%20what%20is%20the%20hero%20McCree%27s%20full%20name%3F",
+      "correct_answer": "Jesse%20McCree",
+      "incorrect_answers": [
+        "Jack%20%22McCree%22%20Morrison",
+        "Gabriel%20Reyes",
+        "Jamison%20%22Deadeye%22%20Fawkes"
+      ]
+    },
+    {
+      "category": "Entertainment%3A%20Video%20Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "In%20what%20city%20in%20the%20dystopia%20alternate%20future%20of%20Half-Life%202%20do%20you%20first%20start%20in%3F",
+      "correct_answer": "City%2017",
+      "incorrect_answers": ["City%2018", "City%206", "City%2045"]
+    },
+    {
+      "category": "Entertainment%3A%20Video%20Games",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What%20happened%20to%20Half-Life%202%20prior%20to%20its%20release%2C%20which%20resulted%20in%20Valve%20starting%20over%20the%20development%20of%20the%20game%3F",
+      "correct_answer": "The%20source%20code%20got%20leaked",
+      "incorrect_answers": [
+        "They%20weren%27t%20satisfied%20with%20the%20result",
+        "The%20story%20was%20not%20good%20enough",
+        "Way%20too%20many%20bugs%20to%20be%20fixed"
+      ]
+    },
+    {
+      "category": "Entertainment%3A%20Television",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which%20company%20has%20exclusive%20rights%20to%20air%20episodes%20of%20the%20%22The%20Grand%20Tour%22%3F",
+      "correct_answer": "Amazon",
+      "incorrect_answers": ["Netflix", "BBC", "CCTV"]
+    },
+    {
+      "category": "Entertainment%3A%20Video%20Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "In%20the%20game%20Battleblock%20Theater%2C%20what%20was%20the%20name%20of%20the%20voice%20actor%20who%20voiced%20the%20narrator%3F",
+      "correct_answer": "Will%20Stamper",
+      "incorrect_answers": [
+        "Steve%20Blum",
+        "Richard%20Epcar",
+        "Yuri%20Lowenthal"
+      ]
+    },
+    {
+      "category": "Entertainment%3A%20Video%20Games",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In%20the%20game%20Destiny%2C%20who%20succeeded%20Peter%20Dinklage%20in%20voicing%20the%20protagonist%27s%20%22Ghost%22%3F",
+      "correct_answer": "Nolan%20North",
+      "incorrect_answers": [
+        "John%20DiMaggio",
+        "Mark%20Hamill",
+        "%20Troy%20Baker"
+      ]
+    },
+    {
+      "category": "Entertainment%3A%20Video%20Games",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In%20the%20game%20%22Subnautica%22%2C%20which%20feature%20was%20removed%20due%20to%20performance%20issues%20in%202016%3F",
+      "correct_answer": "Terraforming",
+      "incorrect_answers": ["Building", "Crafting", "Multiplayer"]
+    },
+    {
+      "category": "General%20Knowledge",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "When%20was%20Nintendo%20founded%3F",
+      "correct_answer": "September%2023rd%2C%201889",
+      "incorrect_answers": [
+        "October%2019th%2C%201891",
+        "March%204th%2C%201887",
+        "December%2027th%2C%201894"
+      ]
+    },
+    {
+      "category": "Celebrities",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What%20is%20generally%20considered%20to%20be%20William%20Shakespeare%27s%20birth%20date%3F",
+      "correct_answer": "April%2023rd%2C%201564",
+      "incorrect_answers": [
+        "July%204th%2C%201409",
+        "September%2029th%2C%201699",
+        "December%201st%2C%201750"
+      ]
+    },
+    {
+      "category": "Mythology",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Which%20of%20the%20following%20is%20NOT%20a%20god%20in%20Norse%20Mythology.",
+      "correct_answer": "Jens",
+      "incorrect_answers": ["Loki", "Tyr", "Snotra"]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "How%20many%20points%20did%20LeBron%20James%20score%20in%20his%20first%20NBA%20game%3F",
+      "correct_answer": "25",
+      "incorrect_answers": ["19", "69", "41"]
+    },
+    {
+      "category": "Science%3A%20Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": ".rs%20is%20the%20top-level%20domain%20for%20what%20country%3F",
+      "correct_answer": "Serbia",
+      "incorrect_answers": ["Romania", "Russia", "Rwanda"]
+    },
+    {
+      "category": "Vehicles",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "In%202014%2C%20over%206%20million%20General%20Motors%20vehicles%20were%20recalled%20due%20to%20what%20critical%20flaw%3F",
+      "correct_answer": "Faulty%20ignition%20switch",
+      "incorrect_answers": [
+        "Malfunctioning%20gas%20pedal",
+        "Breaking%20fuel%20lines",
+        "Faulty%20brake%20pads"
+      ]
+    },
+    {
+      "category": "Science%3A%20Computers",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Which%20data%20structure%20does%20FILO%20apply%20to%3F",
+      "correct_answer": "Stack",
+      "incorrect_answers": ["Queue", "Heap", "Tree"]
+    },
+    {
+      "category": "Entertainment%3A%20Music",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which%20song%20on%20Daft%20Punk%27s%20%22Random%20Access%20Memories%22%20features%20Pharrell%20Williams%3F",
+      "correct_answer": "Get%20Lucky",
+      "incorrect_answers": [
+        "Doin%27%20It%20Right",
+        "Instant%20Crush",
+        "The%20Game%20of%20Love"
+      ]
+    },
+    {
+      "category": "Entertainment%3A%20Video%20Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What%20is%20the%20name%20of%20the%204-armed%20Chaos%20Witch%20from%20the%202016%20video%20game%20%22Battleborn%22%3F",
+      "correct_answer": "Orendi",
+      "incorrect_answers": ["Orendoo", "Oranda", "Randy"]
+    },
+    {
+      "category": "Entertainment%3A%20Television",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "In%20season%20one%20of%20the%20Netflix%20political%20drama%20%22House%20of%20Cards%22%2C%20what%20government%20position%20does%20Frank%20Underwood%20hold%3F",
+      "correct_answer": "House%20Majority%20Whip",
+      "incorrect_answers": [
+        "Attorney%20General",
+        "President",
+        "Chief%20of%20Staff"
+      ]
+    },
+    {
+      "category": "Entertainment%3A%20Japanese%20Anime%20%26%20Manga",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Akatsuki%27s%20subclass%20in%20%22Log%20Horizon%22%20is%20what%3F",
+      "correct_answer": "%20Tracker",
+      "incorrect_answers": ["Assassin", "Scribe", "Apprentice"]
+    },
+    {
+      "category": "Entertainment%3A%20Japanese%20Anime%20%26%20Manga",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "In%20%22One%20Piece%22%2C%20who%20is%20the%20girl%20who%20overcame%20her%20enslaved%20past%20and%20became%20an%20agent%20of%20an%20army%20to%20fight%20the%20corrupt%20government%3F",
+      "correct_answer": "Koala",
+      "incorrect_answers": [
+        "Boa%20Hancock",
+        "Nico%20Robin",
+        "Emporio%20Ivankov%20"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Broome%20is%20a%20town%20in%20which%20state%20of%20Australia%3F",
+      "correct_answer": "Western%20Australia",
+      "incorrect_answers": [
+        "Northern%20Territory",
+        "South%20Australia",
+        "Tasmania"
+      ]
+    },
+    {
+      "category": "Entertainment%3A%20Japanese%20Anime%20%26%20Manga",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What%20year%20did%20%22Attack%20on%20Titan%22%20first%20air%3F",
+      "correct_answer": "2013",
+      "incorrect_answers": ["2014", "2012", "2015"]
+    },
+    {
+      "category": "Politics",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "In%20June%202017%2C%20Saudi%20Arabia%20and%20Egypt%20broke%20off%20ties%20with%20which%20country%20over%20its%20supposed%20support%20for%20terrorism%3F",
+      "correct_answer": "Qatar",
+      "incorrect_answers": [
+        "Bahrain",
+        "United%20States%20of%20America",
+        "Russia"
+      ]
+    },
+    {
+      "category": "Mythology",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In%20African%20mythology%2C%20Anansi%20is%20a%20trickster%20and%20storyteller%20who%20takes%20the%20shape%20of%20which%20animal%3F",
+      "correct_answer": "Spider",
+      "incorrect_answers": ["Wild%20dog", "Monkey", "Crocodile"]
+    },
+    {
+      "category": "Entertainment%3A%20Television",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What%20is%20the%20name%20of%20Chris%27s%20brother%20in%20%22Everybody%20Hates%20Chris%22%3F",
+      "correct_answer": "Drew",
+      "incorrect_answers": ["Jerome", "Greg", "Joe"]
+    },
+    {
+      "category": "Entertainment%3A%20Video%20Games",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which%20pop%20singer%20was%20brought%20in%20by%20SEGA%20to%20produce%20the%20music%20for%20%22Sonic%20the%20Hedgehog%203%22%3F",
+      "correct_answer": "Michael%20Jackson%20",
+      "incorrect_answers": ["Prince", "George%20Michael", "Vanilla%20Ice%20"]
+    },
+    {
+      "category": "Entertainment%3A%20Books",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "In%20the%20novel%201984%2C%20written%20by%20George%20Orwell%2C%20what%20is%20the%20name%20of%20the%20totalitarian%20regime%20that%20controls%20Oceania%3F",
+      "correct_answer": "INGSOC",
+      "incorrect_answers": [
+        "Neo-Bolshevism",
+        "Obliteration%20of%20the%20Self",
+        "Earth%20Alliance"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which%20English%20county%20will%20you%20find%20the%20University%20of%20East%20Anglia%3F",
+      "correct_answer": "Norfolk",
+      "incorrect_answers": ["Suffolk", "Essex", "Cambridgeshire"]
+    },
+    {
+      "category": "Entertainment%3A%20Cartoon%20%26%20Animations",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What%20is%20the%20name%20of%20the%20Alligator%20that%20The%20Simpsons%20%22killed%22%20in%20the%20episode%20%22Kill%20The%20Alligator%20and%20Run%22%3F",
+      "correct_answer": "Captain%20Jack",
+      "incorrect_answers": [
+        "Captain%20Jake",
+        "Captain%20Hector",
+        "Captain%20Flynn"
+      ]
+    },
+    {
+      "category": "Entertainment%3A%20Video%20Games",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which%20of%20the%20following%20was%20not%20developed%20by%20Bethesda%3F",
+      "correct_answer": "Fallout%3A%20New%20Vegas",
+      "incorrect_answers": [
+        "Fallout%203",
+        "The%20Elder%20Scrolls%20V%3A%20Skyrim",
+        "Fallout%204"
+      ]
+    },
+    {
+      "category": "Animals",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "What%20is%20the%20collective%20noun%20for%20vultures%3F",
+      "correct_answer": "Wake",
+      "incorrect_answers": ["Ambush", "Building", "Gaze"]
+    }
+  ]
+}
