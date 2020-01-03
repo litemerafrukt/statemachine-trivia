@@ -2,6 +2,8 @@
 
 Ten questions. Try to answer them as quickly as possible, there is a 15 seconds limit. You have two lifelines, 50/50 and 10 extra seconds, use them wisely.
 
+[Demo](https://trivia.litemerafrukt.now.sh/)
+
 Questions come from [Open trivia db](https://opentdb.com/)
 
 ## Setup
