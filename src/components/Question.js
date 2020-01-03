@@ -15,26 +15,35 @@ export const Question = ({ questionService }) => {
 
   return (
     <div>
-      <h3 style={{ minHeight: "5rem" }}>{question.question}</h3>
-      <h4>{time > 0 ? `${time} s` : "Time's up!"}</h4>
-      <div
-        className={classNames("lifelines", {
-          disabled: current.matches("feedback")
-        })}
-        style={{
-          opacity: time > 0 ? "1" : "0.5",
-          pointerEvents: time === 0 && "none"
-        }}
-      >
-        <button onClick={() => send("FIFTY_FIFTY")} disabled={!hasFiftyFifty}>
-          50/50
-        </button>
-        <button
-          onClick={() => send("ADDITIONAL_TEN")}
-          disabled={!hasAdditionalTen}
+      <div className="question">
+        <h3>{question.question}</h3>
+      </div>
+      <div className="question-action-area bordered">
+        <span className="time">{time > 0 ? `${time} s` : "Time's up!"}</span>
+        <div
+          className={classNames("lifelines", {
+            disabled: current.matches("feedback")
+          })}
         >
-          +10s
-        </button>
+          <button
+            onClick={() => send("FIFTY_FIFTY")}
+            disabled={!hasFiftyFifty}
+            className={classNames({
+              disabled: !hasFiftyFifty
+            })}
+          >
+            50/50
+          </button>
+          <button
+            onClick={() => send("ADDITIONAL_TEN")}
+            disabled={!hasAdditionalTen}
+            className={classNames({
+              disabled: !hasAdditionalTen
+            })}
+          >
+            +10s
+          </button>
+        </div>
       </div>
       <div
         className={classNames({ "no-pointer": current.matches("feedback") })}

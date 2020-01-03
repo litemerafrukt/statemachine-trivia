@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font-size: calc(10px + 2vmin);
+}
+
+button {
+  padding: 0.5em 1.4em;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 2em;
+  font-weight: 500;
+  color: #fff;
+  background-color: #2ecc40;
+  text-shadow: 0 0.04em 0.04em rgba(0, 0, 0, 0.35);
+  transition: all 0.2s;
+}
+
+button:hover {
+  border-color: #2ecc40;
+  cursor: pointer;
+}
+
+main {
+  width: 414px;
+  max-width: 100%;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #111111;
+  margin: 0 auto;
+  padding: 3px;
+}
+
+.app-action-area {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 1em;
+}
+
+.bordered {
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+}
+
+.question {
+  min-height: 5em;
+}
+
+.question-action-area {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5em 0;
+}
+
+.time {
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.lifelines {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.answers {
+  border-bottom: 1px solid #dddddd;
+  padding: 0.5em 0;
+}
+
+.answer {
+  border: 5px solid #fff;
+  background-color: #fff;
+  margin: 0 auto;
+  text-align: center;
+  cursor: default;
+  padding: 1em;
+}
+
+.answer:hover {
+  border-color: #ff851b;
+  cursor: pointer;
+}
+
+.no-pointer {
+  pointer-events: none;
+}
+
+.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.disabled-answer {
+  opacity: 0.3;
+  pointer-events: none;
+  text-decoration: line-through;
+}
+
+.feedback-chosen,
+.feedback-chosen.answer:hover {
+  border: 5px solid #ff4136;
+}
+
+.feedback-correct,
+.feedback-correct.answer:hover {
+  border: 5px solid #2ecc40;
+}
+
+.statistics {
+  display: flex;
+}
+
+.statistics-summary {
+  white-space: nowrap;
+}
+
+.play-again-button {
+  margin: 0.5em 0 0 -4px;
+}
+
+.answered-questions-list {
+  list-style: none;
+}
+
+.answered-question-heading {
+  margin: 0;
+}
