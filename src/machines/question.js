@@ -2,7 +2,9 @@ import { Machine, assign, sendParent } from "xstate"
 import { alternativesFromQuestion } from "../utils/alternativesFromQuestion"
 import { fiftyFifty } from "../utils/fiftyFifty"
 
-const tickService = Machine({
+const SECONDS_PER_QUESTION = 15
+
+const tickMachine = Machine({
   id: "tickService",
   initial: "tick",
   states: {
@@ -17,24 +19,17 @@ const tickService = Machine({
 
 export const questionMachine = Machine(
   {
-    id: "questionMachine",
-    initial: "initial",
+    id: "question",
+    initial: "constructAnswerAlternatives",
     context: {
       hasFiftyFifty: null,
       hasAdditionalTen: null,
       question: null,
       answer: null,
       answerAlternatives: [],
-      time: 15
+      time: SECONDS_PER_QUESTION
     },
     states: {
-      initial: {
-        on: {
-          "": {
-            target: "constructAnswerAlternatives"
-          }
-        }
-      },
       constructAnswerAlternatives: {
         on: {
           "": {
@@ -46,7 +41,7 @@ export const questionMachine = Machine(
       answering: {
         invoke: {
           id: "ticker",
-          src: tickService
+          src: "tickMachine"
         },
         on: {
           FIFTY_FIFTY: {
@@ -70,7 +65,7 @@ export const questionMachine = Machine(
       },
       feedback: {
         after: {
-          1000: "done"
+          FEEDBACK_DELAY: "done"
         }
       },
       done: {
@@ -84,6 +79,12 @@ export const questionMachine = Machine(
     }
   },
   {
+    services: {
+      tickMachine: tickMachine
+    },
+    delays: {
+      FEEDBACK_DELAY: 1000
+    },
     actions: {
       constructAnswerAlternatives: assign({
         answerAlternatives: context =>

@@ -8,7 +8,7 @@ const NUMBER_OF_QUESTIONS = 10
 
 export const appMachine = Machine(
   {
-    id: "appMachine",
+    id: "app",
     initial: "initial",
     context: {
       questions: [],
@@ -36,7 +36,7 @@ export const appMachine = Machine(
         on: {
           "": {
             target: "initial",
-            cond: context => context.questions < NUMBER_OF_QUESTIONS
+            cond: context => context.questions.length < NUMBER_OF_QUESTIONS
           },
           PLAY: "playing"
         }
@@ -44,7 +44,7 @@ export const appMachine = Machine(
       playing: {
         invoke: {
           id: "game",
-          src: gameMachine,
+          src: "gameMachine",
           data: {
             ...gameMachine.initialState.context,
             unAnsweredQuestions: context =>
@@ -63,7 +63,8 @@ export const appMachine = Machine(
   },
   {
     services: {
-      requestQuestions: requestQuestions
+      requestQuestions: requestQuestions,
+      gameMachine: gameMachine
     },
     actions: {
       fetchQuestionsSuccess: assign({
