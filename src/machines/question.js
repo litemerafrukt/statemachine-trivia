@@ -45,10 +45,12 @@ export const questionMachine = Machine(
         },
         on: {
           FIFTY_FIFTY: {
-            actions: "fiftyFifty"
+            actions: "fiftyFifty",
+            cond: "hasFiftyFifty"
           },
           ADDITIONAL_TEN: {
-            actions: "additionalTen"
+            actions: "additionalTen",
+            cond: "hasAdditionalTen"
           },
           ANSWER: {
             target: "feedback",
@@ -85,21 +87,21 @@ export const questionMachine = Machine(
     delays: {
       FEEDBACK_DELAY: 1000
     },
+    guards: {
+      hasAdditionalTen: context => context.hasAdditionalTen,
+      hasFiftyFifty: context => context.hasFiftyFifty
+    },
     actions: {
       constructAnswerAlternatives: assign({
         answerAlternatives: context =>
           context.question && alternativesFromQuestion(context.question)
       }),
       fiftyFifty: assign({
-        answerAlternatives: context =>
-          context.hasFiftyFifty
-            ? fiftyFifty(context.answerAlternatives)
-            : context.answerAlternatives,
+        answerAlternatives: context => fiftyFifty(context.answerAlternatives),
         hasFiftyFifty: false
       }),
       additionalTen: assign({
-        time: context =>
-          context.hasAdditionalTen ? context.time + 10 : context.time,
+        time: context => context.time + 10,
         hasAdditionalTen: false
       }),
       countdown: assign({
